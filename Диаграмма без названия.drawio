@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-27T22:44:23.940Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="xFuFOUnz3w6AAdiXD7d5" version="23.1.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-02-27T22:53:32.439Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="dLKCkbzBoa_guquTbgTZ" version="23.1.7" type="github" pages="6">
   <diagram id="-05cvkWqFzXMk5El1_Sb" name="A0">
     <mxGraphModel dx="1042" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -69,11 +69,22 @@
         </mxCell>
         <mxCell id="MFATtwUmgz8n-XjjL_l8-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="344.5" y="100" as="sourcePoint" />
-            <mxPoint x="344.5" y="300" as="targetPoint" />
+            <mxPoint x="300" y="100" as="sourcePoint" />
+            <mxPoint x="300" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MFATtwUmgz8n-XjjL_l8-10" value="API VK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="MFATtwUmgz8n-XjjL_l8-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.0301" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7F0lQl9pK5Zo80__2TDN-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="100" as="sourcePoint" />
+            <mxPoint x="390" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7F0lQl9pK5Zo80__2TDN-2" value="Нейросеть" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7F0lQl9pK5Zo80__2TDN-1">
           <mxGeometry x="-0.0301" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
