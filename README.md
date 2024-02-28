@@ -28,33 +28,25 @@
 
 # ![](pictures/Рисунок1.png)
 
-<center>
-
 # ![](pictures/Таблица1.jpg)
-
-</center>
 
 
 <a name="br3"></a> 
 
 <p style="text-align: center; color: pink; font-size:20px">Процесс</p>
 
-<center>
 
 # ![](pictures/Таблица2.jpg)
 
-</center>
 
 
 <a name="br4"></a> 
 
 <p style="text-align: center; color: pink; font-size:20px">Команда проекта</p>
 
-<center>
 
 # ![](pictures/Таблица3.jpg)
 
-</center>
 
 
 
