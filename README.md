@@ -33,17 +33,12 @@
 
 <a name="br3"></a> 
 
-<p style="text-align: center; color: pink; font-size:20px">Процесс</p>
-
 
 # ![](pictures/Таблица2.jpg)
 
 
 
 <a name="br4"></a> 
-
-<p style="text-align: center; color: pink; font-size:20px">Команда проекта</p>
-
 
 # ![](pictures/Таблица3.jpg)
 
