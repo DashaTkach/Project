@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-20T18:34:53.198Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="mHhIW5YvsUJ0er5nKMCx" version="24.0.7" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-03-20T18:36:10.255Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="My8XsGvJPMq5Dbg1aM9I" version="24.0.7" type="github" pages="9">
   <diagram id="-05cvkWqFzXMk5El1_Sb" name="Общая логика (А0)">
     <mxGraphModel dx="1303" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1084,7 +1084,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="66MfeGe_8XBtrAUTcawW" name="DFD">
-    <mxGraphModel dx="1895" dy="1049" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="992" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1589,7 +1589,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oP4g2YsttKdCu3Qtp6Op-124" value="User" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1490" y="710" width="180" height="250" as="geometry" />
+          <mxGeometry x="1520" y="720" width="180" height="250" as="geometry" />
         </mxCell>
         <mxCell id="oP4g2YsttKdCu3Qtp6Op-125" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="oP4g2YsttKdCu3Qtp6Op-124">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
