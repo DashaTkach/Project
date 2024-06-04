@@ -1,0 +1,15 @@
+{% extends "demo/base.html" %}
+
+{% block title %}Execute Code{% endblock %}
+
+{% block content %}
+<h2>Execute Code</h2>
+<div id="resultContainer">
+    {{ photo }}<br>
+</div>
+<form method="post" action="{% url 'admin_page' %}">
+    {% csrf_token %}
+    <button type="submit">Обновить статистику</button>
+</form>
+
+{% endblock %}

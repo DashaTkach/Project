@@ -8,9 +8,14 @@ https://docs.djangoproject.com/en/4.2/howto/deployment/asgi/
 """
 
 import os
+import sys
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'neuro.settings')
+path = "C:/Users/tkaac/PycharmProjects/project_neiro/neuro"
+if path not in sys.path:
+    sys.path.insert(0, path)
+
+os.environ["DJANGO_SETTINGS_MODULE"] = "neuro.settings"
 
 application = get_asgi_application()
