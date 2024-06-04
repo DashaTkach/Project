@@ -190,18 +190,21 @@ def criteria(request):
                             user_part_category = find_nearest_hue(rgb)
                             p_f[f'{part["user_part_face"]}'] = user_part_category
                 list_of_posts = post_part_category()
-                for nes_part, nes_cat in p_f.items():
-                    for post in list_of_posts:
-                        for k, v in post.items():
-                            for key, value in v.items():
-                                if nes_part == key and nes_cat == value[1]:
-                                    # image_path = str(Path(*Path(k).parts[-3:]))
-                                    # image_path = k.replace("\\", "/")
-                                    # nes_images.append(k)
-                                    nes_images.append(k)
-                return render(request, "demo/result.html", {'temp': list_of_posts})
-            # return render(request, "demo/result.html", {'photo_paths': nes_images})
+                for post in list_of_posts:
+                    post_d = post[list(post.keys())[0]]
+                    nes_dict = {}
+                    for k, v in post_d.items():
+                        nes_dict[k] = v[1]
+                    if len(p_f) == 2:
+                        if len(set(nes_dict.items()) - set(p_f.items())) == 1:
+                            nes_images.append(list(post.keys()))
+            return render(request, "demo/result.html", {'nes_images': nes_images})
     else:
         form = CriteriaForm()
     context['form'] = form
     return render(request, "demo/criteria.html", context)
+
+
+def result(request, **kwargs):
+    nes_images = kwargs.get('nes_images')
+    return render(request, 'demo/result.html', {'temp': nes_images})

@@ -35,8 +35,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',
-    'rest_framework_swagger',
 
     'demo.apps.DemoConfig',
 ]
@@ -77,7 +75,7 @@ WSGI_APPLICATION = 'neuro.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': '',
+        'NAME': 'project_neuro',
         'HOST': '127.0.0.1',
         'PORT': '5432',
         'USER': '',
@@ -128,27 +126,3 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'demo\catalog_posts')
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-# swagger configuration items
-SWAGGER_SETTINGS = {
-    # Basic style
-    'SECURITY_DEFINITIONS': {
-        "basic": {
-            'type': 'basic'
-        }
-    },
-    # If you need to log in to view the interface documentation, use the link that comes with restframework to log in.
-    'LOGIN_URL': 'rest_framework:login',
-    'LOGOUT_URL': 'rest_framework:logout',
-    # 'DOC_EXPANSION': None,
-    # 'SHOW_REQUEST_HEADERS':True,
-    # 'USE_SESSION_AUTH': True,
-    # 'DOC_EXPANSION': 'list',
-    # The method list in the interface document is sorted in ascending order
-    'APIS_SORTER': 'alpha',
-    # If json submission is supported, the interface document contains a json input box
-    'JSON_EDITOR': True,
-    # Method list alphabetical order
-    'OPERATIONS_SORTER': 'alpha',
-    'VALIDATOR_URL': None,
-}
